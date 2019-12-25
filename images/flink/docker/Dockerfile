@@ -34,4 +34,4 @@ RUN echo "Downloading ${FLINK_HADOOP_JAR_URI}" && \
 # Entry point.
 COPY entrypoint.sh /
 RUN chmod 775 /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+# ENTRYPOINT ["/entrypoint.sh"]
